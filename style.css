@@ -1,0 +1,48 @@
+ul{
+    background-color: white;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    float: left;
+    background-color: black;
+}
+
+li a, .dpdbtn{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    border: 1px solid;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: white;
+    color: black;
+}
+
+li.dpd{
+    display: inline-block;
+}
+
+.dropcont{
+    position: absolute;
+    background-color: black;
+    width: auto;
+    display: none;
+}
+
+.dropcont a{
+    color: white;
+    display: block;
+    text-align: left;
+    border: 1px solid;
+}
+
+.dropdown:hover .dropcont{ 
+    display: block;
+}
